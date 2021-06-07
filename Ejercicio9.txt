@@ -1,0 +1,22 @@
+Proceso
+	var temp
+	var contador
+	var t1 <- 0
+	var t2 <- 0
+	var prom
+	Hacer
+		Escribir "Ingrese la temperatura 1"
+		Leer t1
+		Si t1 >= 5 & t1 <= 15
+			temp = temp + t1
+			contador = contador +1
+		FinSi
+		Escribir "Ingrese la temperatura 2"
+		Si t2 >= 5 & t2 <= 15
+			temp = temp  t2
+			contador = contador + 1
+		FinSi
+	Mientras t1 != 0
+	prom <- temp/contador
+	Escribir "El promedio de las temperaturas entre 5 y 15 es de " + prom
+FinProceso
